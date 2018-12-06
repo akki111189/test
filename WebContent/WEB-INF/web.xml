@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>housing</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>loginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>roomOwnerServlet</servlet-name>
+        <servlet-class>roomOwnerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ownerFamilyDetailServlet</servlet-name>
+        <servlet-class>ownerFamilyDetailServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>insertServlet</servlet-name>
+        <servlet-class>insertServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>societyServlet</servlet-name>
+        <servlet-class>societyServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>searchServlet</servlet-name>
+        <servlet-class>searchServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>buildingServlet</servlet-name>
+        <servlet-class>buildingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/loginServlet</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>roomOwnerServlet</servlet-name>
+        <url-pattern>/roomOwnerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ownerFamilyDetailServlet</servlet-name>
+        <url-pattern>/ownerFamilyDetailServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>insertServlet</servlet-name>
+        <url-pattern>/insertServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>societyServlet</servlet-name>
+        <url-pattern>/societyServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>searchServlet</servlet-name>
+        <url-pattern>/searchServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>buildingServlet</servlet-name>
+        <url-pattern>/buildingServlet</url-pattern>
+    </servlet-mapping>
+  
+  
+  
+</web-app>
